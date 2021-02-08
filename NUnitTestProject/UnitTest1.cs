@@ -67,7 +67,6 @@ namespace NUnitTestProject
         {
             bool result = program.EmailValidationNunitTest(sampleEmail);
             Assert.AreEqual(expectedResult, result);
-
         }
 
 
