@@ -25,5 +25,12 @@ namespace NUnitTestProject
             bool result = program.LastNameValidationNunitTest();
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Given_EmailAddress_Expecting_TrueResult()
+        {
+            bool result = program.EmailAddressValidationNunitTest();
+            Assert.AreEqual(true, result);
+        }
     }
 }
