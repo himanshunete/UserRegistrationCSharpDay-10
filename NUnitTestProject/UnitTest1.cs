@@ -41,9 +41,9 @@ namespace NUnitTestProject
         }
 
         [Test]
-        public void Given_PasswordRule2_Expecting_TrueResult()
+        public void Given_PasswordRule3_Expecting_TrueResult()
         {
-            bool result = program.PasswordRule2ValidationNunitTest();
+            bool result = program.PasswordRule3ValidationNunitTest();
             Assert.AreEqual(true, result);
         }
 
