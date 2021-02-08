@@ -32,5 +32,12 @@ namespace NUnitTestProject
             bool result = program.EmailAddressValidationNunitTest();
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Given_MobileNumber_Expecting_TrueResult()
+        {
+            bool result = program.MobileNumberValidationNunitTest();
+            Assert.AreEqual(true, result);
+        }
     }
 }
