@@ -39,5 +39,14 @@ namespace NUnitTestProject
             bool result = program.MobileNumberValidationNunitTest();
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Given_PasswordRule1_Expecting_TrueResult()
+        {
+            bool result = program.PasswordRule1ValidationNunitTest();
+            Assert.AreEqual(true, result);
+        }
+
+
     }
 }
