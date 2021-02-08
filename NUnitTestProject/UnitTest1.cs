@@ -12,8 +12,9 @@ namespace NUnitTestProject
             program = new Program();
         }
 
+
         [Test]
-        public void Test1()
+        public void Given_FirstName_Expecting_TrueResult()
         {
             bool result = program.FirstNameValidationTestForNunit();
             Assert.AreEqual(true, result);
