@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NUnitTestProject", "NUnitTestProject\NUnitTestProject.csproj", "{B3171F52-E477-4FCC-9580-D568CF78A308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRegex", "..\TestRegex\TestRegex\TestRegex.csproj", "{395F6930-5A98-40BB-9FF0-DF8130D0E19B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3171F52-E477-4FCC-9580-D568CF78A308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3171F52-E477-4FCC-9580-D568CF78A308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3171F52-E477-4FCC-9580-D568CF78A308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3171F52-E477-4FCC-9580-D568CF78A308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395F6930-5A98-40BB-9FF0-DF8130D0E19B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395F6930-5A98-40BB-9FF0-DF8130D0E19B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395F6930-5A98-40BB-9FF0-DF8130D0E19B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395F6930-5A98-40BB-9FF0-DF8130D0E19B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4881D566-8A21-4983-88B6-437BCCFFFA70}
+	EndGlobalSection
+EndGlobal
